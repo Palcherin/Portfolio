@@ -1,0 +1,28 @@
+*{
+    color: #fff;
+}
+.skills{
+    width: 100%;
+
+}
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.icons{
+    margin: 3px;
+    border:2px solid rgb(173, 12, 12);
+    border-radius: 100%;
+}
+.right ul{
+    list-style-type: number;
+}
+@media screen and ( max-width: 640px){
+    .skills-container{
+        display: block;
+        
+    }
+    
+}
